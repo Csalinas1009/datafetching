@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        'https://api.sampleapis.com/futurama/characters/2',
+        'https://api.sampleapis.com/futurama/characters',
       );
 
       setData(result.data);
